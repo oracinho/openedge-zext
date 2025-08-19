@@ -65,7 +65,7 @@ export class BaseExecutor {
     }
 
     protected getBinary() {
-        return this.ablEnvironment.progressBin;
+        return this.ablEnvironment.dlcCompiler;
     }
 
     protected isBatch() {

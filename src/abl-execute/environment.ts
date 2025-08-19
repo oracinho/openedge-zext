@@ -28,7 +28,15 @@ export class AblEnvironment {
     get binPath() {
         return path.join(this.dlcPath, 'bin');
     }
-    
+
+    get dlcCompiler() {
+        let path = ExtensionConfig.getInstance().getConfig()?.dlcCompiler;
+        if (path == "_progres")
+          return this.progressBin;
+        else 
+          return this.prowinBin;
+    }
+
     getBinaryPath(name: string) {
         return path.join(this.binPath, name);
     }

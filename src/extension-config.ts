@@ -22,6 +22,7 @@ export interface OpenEdgeConfig {
     configFile?: string;
     workingDirectory?: string;
     dlcPath?: string;
+    dlcCompiler?: string;
     dbDictionary?: string[];
     deployment?: DeploymentTask[];
 }

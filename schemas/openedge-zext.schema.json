@@ -45,6 +45,11 @@
       "description": "DLC Path",
       "type": "string"
     },
+    "dlcCompiler": {
+      "id": "/properties/dlcCompiler",
+      "description": "Progress Compiler utilitary ('_progres' or 'prowin32')",
+      "type": "string"
+    },
     "dbDictionary": {
       "id": "/properties/dbDictionary",
       "description": "Database list for auto-complete",
